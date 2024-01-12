@@ -1,0 +1,62 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+  font-size: 25px;
+}
+
+nav {
+  display: block;
+}
+
+html {
+    display: block;
+}
+
+main {
+    display: block;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 300px;
+    width: 150px; 
+}
+
+#navbar header {
+  text-align: center;
+}
+
+nav ul li {
+  height: 60px;
+  border: solid;
+  margin-bottom: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  margin-left: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  font-weight: bold;
+}
